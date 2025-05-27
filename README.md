@@ -1,4 +1,4 @@
-# Project & Task Management API
+# Kamana
 
 A modular, scalable, and well-structured backend API built with **NestJS** and **MikroORM**. This system provides a foundation for collaborative project and task management, including user authentication, role-based authorization, project membership, task tracking, and threaded comments.
 
