@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: kamana_db
+    restart: always
+    environment:
+      POSTGRES_USER: kamana_user
+      POSTGRES_PASSWORD: kamana_password
+      POSTGRES_DB: kamana_db
+    ports:
+      - '5432:5432'
+    volumes:
+      - db_data:/var/lib/postgresql/data
