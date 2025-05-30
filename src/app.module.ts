@@ -2,10 +2,11 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { MikroOrmModule } from '@mikro-orm/nestjs';
-import MikroOrmConfig from './database/mikroorm-config';
+import { UsersModule } from './users/users.module';
+import MikroOrmConfig from './database/mikro-orm.config';
 
 @Module({
-  imports: [MikroOrmModule.forRoot(MikroOrmConfig)],
+  imports: [MikroOrmModule.forRoot(MikroOrmConfig), UsersModule],
   controllers: [AppController],
   providers: [AppService],
 })
