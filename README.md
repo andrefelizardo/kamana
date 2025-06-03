@@ -82,7 +82,7 @@ pnpm test
 
 ## 🧾 API Documentation
 
-[Entity Relationship Diagram (ERD)](https://github.com/andrefelizardo/kamana/docs/erd-06-03-2025.png)
+[Entity Relationship Diagram (ERD)](https://github.com/andrefelizardo/kamana/blob/develop/docs/erd-06-03-2025.png)
 
 Swagger will be available at:
 
